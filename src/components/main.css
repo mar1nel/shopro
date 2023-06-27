@@ -1,3 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-links{
-    padding: 20px;
+    /*padding: 10px;*/
+}
+
+.mainwrap {
+    border-color: darkred;
+    border-style: solid;
+    max-width: 1100px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+
+.howto{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.centered-image {
+    margin-left: 10px;
+    height: 90px;
+}
+
+.navbar{
+    border-color: darkred;
+    border-style: solid;
+}
+
+.custom-button {
+    margin: 10px;
+    /*padding: 8px 16px;*/
 }
