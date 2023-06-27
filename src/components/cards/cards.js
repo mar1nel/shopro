@@ -2,6 +2,7 @@ import { Card, Grid, Row, Text } from "@nextui-org/react";
 import waka1 from './cards-img/waka1.png';
 import crystal1 from './cards-img/crystal1.webp';
 import elfbar1 from './cards-img/elfbar1.jpg';
+import elfbar2 from './cards-img/elfbar2.webp';
 import React from "react";
 
 export default function Cards() {
@@ -22,20 +23,10 @@ export default function Cards() {
             price: "25 LEI",
         },
         {
-            title: "Crystal ProMax 4000 2%",
-            img: crystal1,
-            price: "55 LEI",
+            title: "ElfBar BC5000 Puff 2%",
+            img: elfbar2,
+            price: "OUT OF STOCK",
         },
-        {
-            title: "ElfBar Vape 600 Puff 2%",
-            img: elfbar1,
-            price: "25 LEI",
-        },
-        {
-            title: "Crystal ProMax 4000 2%",
-            img: crystal1,
-            price: "55 LEI",
-        }
     ];
 
     return (
@@ -43,7 +34,8 @@ export default function Cards() {
             <br/>
             <div style={{marginLeft: 20}}>Today we dropping in Timisoara:</div>
             <br/>
-            <Grid.Container gap={0} justify="center">
+            <div className="card-container">
+                <Grid.Container gap={4} justify="center">
                 {list.map((item, index) => (
                     <Grid xs={6} sm={3} key={index}>
                         <Card isPressable>
@@ -71,7 +63,8 @@ export default function Cards() {
                         </Card>
                     </Grid>
                 ))}
-            </Grid.Container>
+               </Grid.Container>
+            </div>
         </>
     );
 }
