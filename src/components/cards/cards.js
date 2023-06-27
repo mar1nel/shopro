@@ -43,7 +43,7 @@ export default function Cards() {
             <br/>
             <div style={{marginLeft: 20}}>Today we dropping in Timisoara:</div>
             <br/>
-            <Grid.Container gap={2} justify="center">
+            <Grid.Container gap={0} justify="center">
                 {list.map((item, index) => (
                     <Grid xs={6} sm={3} key={index}>
                         <Card isPressable>

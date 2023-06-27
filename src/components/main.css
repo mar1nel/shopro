@@ -10,7 +10,7 @@ body {
 .mainwrap {
     border-color: darkred;
     border-style: solid;
-    max-width: 1100px;
+    /*max-width: 1100px;*/
     /*margin-left: auto;*/
     /*margin-right: auto;*/
 }
@@ -36,6 +36,6 @@ body {
 }
 
 .custom-button {
-    margin: 10px;
+    /*margin: 2px;*/
     /*padding: 8px 16px;*/
 }
