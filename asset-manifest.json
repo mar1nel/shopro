@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/shopro/static/css/main.a83169b8.css",
+    "main.js": "/shopro/static/js/main.6328549b.js",
+    "static/media/img1.png": "/shopro/static/media/img1.a642a7819119c754f7d3.png",
+    "static/media/waka1.png": "/shopro/static/media/waka1.98a185a3dd4dd7306dbe.png",
+    "static/media/crystal1.webp": "/shopro/static/media/crystal1.c6f4a1d0d067d370b1c7.webp",
+    "static/media/elfbar1.jpg": "/shopro/static/media/elfbar1.ff78ae016e1ea118b48f.jpg",
+    "static/media/elfbar2.webp": "/shopro/static/media/elfbar2.b6440778afc6bfba7a99.webp",
+    "index.html": "/shopro/index.html",
+    "main.a83169b8.css.map": "/shopro/static/css/main.a83169b8.css.map",
+    "main.6328549b.js.map": "/shopro/static/js/main.6328549b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a83169b8.css",
+    "static/js/main.6328549b.js"
+  ]
+}
