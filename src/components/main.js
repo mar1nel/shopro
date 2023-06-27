@@ -20,7 +20,7 @@ const Main = () => {
 
     return (
         <>
-            <Navbar variant="sticky">
+            <Navbar variant="floating">
                 <Navbar.Brand>
                     <Navbar.Toggle aria-label="toggle navigation" />
                     <AcmeLogo height="65px"/>
