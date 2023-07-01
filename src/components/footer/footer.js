@@ -4,12 +4,15 @@ import './footer.css';
 import { AcmeLogo } from "../AcmeLogo";
 
 const Footer = () => {
+
+    // const logoHeight = window.innerWidth <= 420 ? 20 : 200;
+
     return (
         <footer className="footer">
             <div className="footer-container">
-                <div className="logo">
-                    <AcmeLogo height="200"/>
-                </div>
+                {/*<div className="logo">*/}
+                {/*    <AcmeLogo height={logoHeight}/>*/}
+                {/*</div>*/}
                 <div className="contact-info">
                     <h4>Contact</h4>
                     <p>Telefon: +40 74872012</p>
@@ -25,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="extra-info">
-                <p>Please don't send nudes and dickpicks in exchange for free vapes. Or do, we don't care.</p>
+                <p>Please don't send nudes or dickpicks <br/> on IG or TG in exchange for free vapes. <br/> Or do, we don't care. ( but we will check them all ) </p>
             </div>
         </footer>
     );

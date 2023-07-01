@@ -1,4 +1,4 @@
-import { Card, Grid, Row, Text } from "@nextui-org/react";
+import {Card, Grid, Row, Text, Container, Col} from "@nextui-org/react";
 import waka1 from './cards-img/waka1.png';
 import crystal1 from './cards-img/crystal1.webp';
 import elfbar1 from './cards-img/elfbar1.jpg';
@@ -35,7 +35,9 @@ export default function Cards() {
             <div style={{marginLeft: 20}}>Today we dropping in Timisoara:</div>
             <br/>
             <div className="card-container">
-                <Grid.Container gap={4} justify="center">
+                <Container md justify="center">
+                    <Row>
+                        <Col>
                 {list.map((item, index) => (
                     <Grid xs={6} sm={3} key={index}>
                         <Card isPressable>
@@ -63,7 +65,9 @@ export default function Cards() {
                         </Card>
                     </Grid>
                 ))}
-               </Grid.Container>
+                        </Col>
+                    </Row>
+               </Container>
             </div>
         </>
     );
