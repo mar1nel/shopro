@@ -21,6 +21,45 @@ const Main = () => {
     return (
         <>
 
+            <Navbar variant="fixed">
+                <Navbar.Brand>
+                    <Navbar.Toggle aria-label="toggle navigation" />
+                    <AcmeLogo height="65px"/>
+                    <Text b color="inherit" hideIn="xs">
+                        FUMISHOARA
+                    </Text>
+                </Navbar.Brand>
+                <Navbar.Content enableCursorHighlight hideIn="xs" variant="underline">
+                    <Navbar.Link isActive href="#">
+                        HOMEsoara
+                    </Navbar.Link>
+                    <Navbar.Link href="#">Catalog</Navbar.Link>
+                    <Navbar.Link href="#">Company</Navbar.Link>
+                </Navbar.Content>
+                <Navbar.Content>
+                    <Navbar.Item>
+                        <Button auto flat as={Link} href="#">
+                            Buy Now
+                        </Button>
+                    </Navbar.Item>
+                </Navbar.Content>
+                <Navbar.Collapse>
+                    {collapseItems.map((item, index) => (
+                        <Navbar.CollapseItem key={item}>
+                            <Link
+                                color="inherit"
+                                css={{
+                                    minWidth: "100%",
+                                }}
+                                href="#"
+                            >
+                                {item}
+                            </Link>
+                        </Navbar.CollapseItem>
+                    ))}
+                </Navbar.Collapse>
+            </Navbar>
+
         </>
     );
 }
