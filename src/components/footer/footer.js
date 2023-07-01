@@ -1,7 +1,7 @@
-import React from 'react';
 import { FaTelegram, FaInstagram } from 'react-icons/fa';
-import './footer.css';
 import { AcmeLogo } from "../AcmeLogo";
+import React from 'react';
+import './footer.css';
 
 const Footer = () => {
 
@@ -10,9 +10,6 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                {/*<div className="logo">*/}
-                {/*    <AcmeLogo height={logoHeight}/>*/}
-                {/*</div>*/}
                 <div className="contact-info">
                     <h4>Contact</h4>
                     <p>Telefon: +40 74872012</p>

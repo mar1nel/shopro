@@ -35,11 +35,9 @@ export default function Cards() {
             <div style={{marginLeft: 20}}>Today we dropping in Timisoara:</div>
             <br/>
             <div className="card-container">
-                <Container md justify="center">
-                    <Row>
-                        <Col>
+
                 {list.map((item, index) => (
-                    <Grid xs={6} sm={3} key={index}>
+                    <Grid xs={3} sm={6} key={index}>
                         <Card isPressable>
                             <Card.Body css={{ p: 0 }}>
                                 <Card.Image
