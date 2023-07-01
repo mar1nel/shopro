@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="extra-info">
-                <p>Please don't send nudes or dickpicks <br/> on IG or TG in exchange for free vapes. <br/> Or do, we don't care. ( but we will check them all ) </p>
+                <p>Please don't send nudes or dickpicks <br/> on Intagram in exchange for free vapes. <br/> Or do, we don't care. ( but we will check them all ) </p>
             </div>
         </footer>
     );
